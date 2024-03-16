@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Quiz App</title>
+  <link rel="stylesheet" href="sell.css">
+</head>
+
+<body background="https://cdn.pixabay.com/photo/2015/09/29/15/12/stars-964022_1280.png">
+  <div class="quiz-container">
+    <h1 id="quiz-title">General Knowledge Quiz</h1>
+    <hr><br>
+    <div id="username-container" class="input-container">
+      <input type="text" id="username" placeholder="Enter your name" class="username-input">
+      <button onclick="startQuiz()" class="submit-btn">Submit</button>
+    </div>
+    <a href="https://linktr.ee/Aftabmalik_18" style="color: black;">
+      <h5 id="footer">Created by Aftab Sir.</h5>
+    </a>
+
+    <div id="question-container" style="display: none;"></div>
+    <div id="timer-container" style="display: none;">Time Remaining: <span id="timer">10</span> seconds</div>
+    <div id="result-container" style="display: none;"></div>
+  </div>
+
+  <script src="sell.js"></script>
+</body>
+
+</html>
